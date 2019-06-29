@@ -2,10 +2,10 @@
 
 const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
-/* 
+/*
 
-  //Given this problem: 
-  
+  //Given this problem:
+
   function firstItem(arr, cb) {
     // firstItem passes the first item of the given array to the callback function.
   }
@@ -17,7 +17,7 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
     return cb(arr[0]);
   }
 
-  // Function invocation 
+  // Function invocation
   firstItem(items, function(first) {
     console.log(first)
   });
@@ -27,10 +27,19 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
 function getLength(arr, cb) {
   // getLength passes the length of the array into the callback.
+ return cb(items.length);
 }
+getLength (items, function(length) {
+  console.log(length)
+});
+console.log(getLength);
 
 function last(arr, cb) {
   // last passes the last item of the array into the callback.
+  return cb(items.length - 1);
+}
+last (items, function(length - 1){
+  console.log(last);
 }
 
 function sumNums(x, y, cb) {
