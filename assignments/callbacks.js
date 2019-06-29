@@ -38,13 +38,20 @@ function last(arr, cb) {
   // last passes the last item of the array into the callback.
   return cb(items.length - 1);
 }
-last (items, function(length - 1){
-  console.log(last);
-}
+const lastItem =  last (items, function(length - 1){
+  return length
+})
+console.log(lastItem);
 
 function sumNums(x, y, cb) {
   // sumNums adds two numbers (x, y) and passes the result to the callback.
+return cb (x + y);
 }
+const sum = sumNums(3,5, function(sumItems) {
+  return sumItems
+})
+console.log(sum);
+
 
 function multiplyNums(x, y, cb) {
   // multiplyNums multiplies two numbers and passes the result to the callback.
