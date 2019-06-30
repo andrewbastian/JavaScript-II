@@ -58,7 +58,7 @@ function contains(item, list, cb) {
   // Pass true to the callback if it is, otherwise pass false.
 return cb(list.includes(items));
 }
-console.log("yo-yo"); 
+
 
 /* STRETCH PROBLEM */
 
