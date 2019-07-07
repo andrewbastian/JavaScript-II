@@ -1,6 +1,22 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function logic (){
+  let babies = 'All babies are illogical.'
+  console.log("It's a baby");
 
+function moreLogic(){
+  let crocodile = 'Nobody is despised who can manage a crocodile.'
+  console.log('it can manage a crocodile');
+
+function mostLogic(){
+  let person = 'Illogical persons are dispised.'
+  console.log('it is despised')
+}
+mostLogic();
+}
+moreLogic();
+}
+logic();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
